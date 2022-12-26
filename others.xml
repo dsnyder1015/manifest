@@ -16,6 +16,10 @@
   <remote name="proton"
           fetch="https://github.com/ProtonAOSP/"
           revision="sc-qpr3" />
+          
+  <remote name="snyder"
+          fetch="https://github.com/dsnyder1015/"
+          revision="tartufo" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/openssl" name="android_prebuilts_openssl" remote="lineage17.0" clone-depth="1" />
@@ -36,7 +40,9 @@
   
   <!-- LineageOS Modifications -->
   <project path="frameworks/opt/calendar" name="android_frameworks_opt_calendar" remote="lineage" />
-  <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="lineage" />
+  
+  <!-- Snyder -->
+  <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="snyder" />
   
   <!-- ProtonAOSP -->
   <project path="external/colorkt" name="android_external_colorkt" remote="proton" />
