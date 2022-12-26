@@ -260,6 +260,7 @@
   <project name="platform/external/kotlinx.atomicfu" path="external/kotlinx.atomicfu"/>
   <project name="platform/external/kotlinx.coroutines" path="external/kotlinx.coroutines"/>
   <project name="platform/external/kotlinx.metadata" path="external/kotlinx.metadata"/>
+  <project name="platform/external/ktfmt" path="external/ktfmt" remote="aosp" />
   <project name="platform/external/ksoap2" path="external/ksoap2"/>
   <project name="platform/external/libabigail" path="external/libabigail" clone-depth="1"/>
   <project name="platform/external/libaom" path="external/libaom"/>
@@ -371,6 +372,9 @@
   <project name="platform/external/openwrt-prebuilts" path="external/openwrt-prebuilts"/>
   <project name="platform/external/oss-fuzz" path="external/oss-fuzz"/>
   <project name="platform/external/owasp/sanitizer" path="external/owasp/sanitizer"/>
+  <project name="platform/external/pandora/avatar" path="external/pandora/avatar" remote="aosp" />
+  <project name="platform/external/pandora/bt-test-interfaces" path="external/pandora/bt-test-interfaces" remote="aosp" />
+  <project name="platform/external/pandora/mmi2grpc" path="external/pandora/mmi2grpc" remote="aosp" />
   <project name="platform/external/parameter-framework" path="external/parameter-framework"/>
   <project name="platform/external/pcre" path="external/pcre"/>
   <project name="platform/external/pdfium" path="external/pdfium"/>
@@ -387,6 +391,7 @@
   <project name="platform/external/puffin" path="external/puffin"/>
   <project name="platform/external/python/apitools" path="external/python/apitools"/>
   <project name="platform/external/python/asn1crypto" path="external/python/asn1crypto"/>
+  <project name="platform/external/python/bumble" path="external/python/bumble" remote="aosp" />
   <project name="platform/external/python/cachetools" path="external/python/cachetools"/>
   <project name="platform/external/python/cffi" path="external/python/cffi"/>
   <project name="platform/external/python/cpython2" path="external/python/cpython2" clone-depth="1"/>
@@ -410,6 +415,7 @@
   <project name="platform/external/python/pyasn1-modules" path="external/python/pyasn1-modules"/>
   <project name="platform/external/python/pybind11" path="external/python/pybind11"/>
   <project name="platform/external/python/pycparser" path="external/python/pycparser"/>
+  <project name="platform/external/python/pyee" path="external/python/pyee" remote="aosp" />
   <project name="platform/external/python/pyfakefs" path="external/python/pyfakefs"/>
   <project name="platform/external/python/pyopenssl" path="external/python/pyopenssl"/>
   <project name="platform/external/python/pyserial" path="external/python/pyserial"/>
@@ -735,7 +741,6 @@
   <project name="platform/frameworks/multidex" path="frameworks/multidex"/>
   <project name="platform/frameworks/native" path="frameworks/native"/>
   <project name="platform/frameworks/opt/bitmap" path="frameworks/opt/bitmap"/>
-  <project name="platform/frameworks/opt/calendar" path="frameworks/opt/calendar"/>
   <project name="platform/frameworks/opt/car/services" path="frameworks/opt/car/services"/>
   <project name="platform/frameworks/opt/car/setupwizard" path="frameworks/opt/car/setupwizard"/>
   <project name="platform/frameworks/opt/chips" path="frameworks/opt/chips"/>
@@ -768,11 +773,14 @@
   <project name="platform/packages/apps/Car/Calendar" path="packages/apps/Car/Calendar"/>
   <project name="platform/packages/apps/Car/Cluster" path="packages/apps/Car/Cluster"/>
   <project name="platform/packages/apps/Car/DebuggingRestrictionController" path="packages/apps/Car/DebuggingRestrictionController"/>
+  <project name="platform/packages/apps/Car/DialerPrebuilt" path="packages/apps/Car/DialerPrebuilt" remote="aosp" />
   <project name="platform/packages/apps/Car/Hvac" path="packages/apps/Car/Hvac"/>
   <project name="platform/packages/apps/Car/LatinIME" path="packages/apps/Car/LatinIME"/>
   <project name="platform/packages/apps/Car/Launcher" path="packages/apps/Car/Launcher"/>
   <project name="platform/packages/apps/Car/LinkViewer" path="packages/apps/Car/LinkViewer"/>
   <project name="platform/packages/apps/Car/LocalMediaPlayer" path="packages/apps/Car/LocalMediaPlayer"/>
+  <project name="platform/packages/apps/Car/MediaPrebuilt" path="packages/apps/Car/MediaPrebuilt" remote="aosp" />
+  <project name="platform/packages/apps/Car/MessengerPrebuilt" path="packages/apps/Car/MessengerPrebuilt" remote="aosp" />
   <project name="platform/packages/apps/Car/Notification" path="packages/apps/Car/Notification"/>
   <project name="platform/packages/apps/Car/Provision" path="packages/apps/Car/Provision"/>
   <project name="platform/packages/apps/Car/Radio" path="packages/apps/Car/Radio"/>
@@ -842,7 +850,6 @@
   <project name="platform/packages/modules/AdServices" path="packages/modules/AdServices"/>
   <project name="platform/packages/modules/AppSearch" path="packages/modules/AppSearch"/>
   <project name="platform/packages/modules/ArtPrebuilt" path="packages/modules/ArtPrebuilt" clone-depth="1"/>
-  <project name="platform/packages/modules/Bluetooth" path="packages/modules/Bluetooth"/>
   <project name="platform/packages/modules/BootPrebuilt/5.10/arm64" path="packages/modules/BootPrebuilt/5.10/arm64" clone-depth="1"/>
   <project name="platform/packages/modules/BootPrebuilt/5.4/arm64" path="packages/modules/BootPrebuilt/5.4/arm64" clone-depth="1"/>
   <project name="platform/packages/modules/CaptivePortalLogin" path="packages/modules/CaptivePortalLogin"/>
@@ -853,6 +860,7 @@
   <project name="platform/packages/modules/ExtServices" path="packages/modules/ExtServices"/>
   <project name="platform/packages/modules/GeoTZ" path="packages/modules/GeoTZ"/>
   <project name="platform/packages/modules/Gki" path="packages/modules/Gki"/>
+  <project name="platform/packages/modules/IntentResolver" path="packages/modules/IntentResolver" remote="aosp" />
   <project name="platform/packages/modules/IPsec" path="packages/modules/IPsec"/>
   <project name="platform/packages/modules/Media" path="packages/modules/Media"/>
   <project name="platform/packages/modules/ModuleMetadata" path="packages/modules/ModuleMetadata"/>
