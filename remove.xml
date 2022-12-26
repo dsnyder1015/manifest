@@ -28,9 +28,6 @@
   <remove-project name="device/qcom/qssi_32"/>
   <remove-project name="device/qcom/qssi_32go"/>
   <remove-project name="device/sample" />
-  
-  <!-- Framework -->
-  <remove-project name="platform/frameworks/opt/calendar" />
 
   <!-- Kernel -->
   <remove-project name="platform/vendor/opensource/cvp-kernel" />
@@ -68,7 +65,6 @@
   <!-- Packages -->
   <remove-project name="platform/packages/apps/Mms" />
   <remove-project name="platform/packages/apps/SnapdragonMusic" />
-  <remove-project name="platform/packages/modules/Bluetooth" />
   <remove-project name="platform/vendor/codeaurora/packages/apps/Dialer" />
   <remove-project name="platform/vendor/codeaurora/packages/apps/SoundRecorder" />
 
